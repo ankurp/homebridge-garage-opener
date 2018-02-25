@@ -1,0 +1,22 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:50",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+  
+  "description": "",
+
+  "accessories": [
+    {
+      "accessory": "Garage Door Opener",
+      "name": "Pi Garage Opener",
+      "doorRelayPin": 4,
+      "openCloseTime": 30000
+    }
+  ],
+
+  "platforms": [
+  ]
+}
